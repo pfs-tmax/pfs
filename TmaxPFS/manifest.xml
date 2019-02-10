@@ -1,0 +1,11 @@
+<resource:Application
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    description="Personnel &amp; Financial System&#xD;&#xA;minhyung_kim/kihyun_lee/junyeon_yun/hanbeen_lee/sanghoon_choi/wooseok_choi"
+    id="TmaxPFS"
+    basePackage="com.tmax.pfs"
+    liveReload="true"
+    name="TmasPFSapp"
+    root="MainTmaxPFSWindow"
+    useDefaultFont="true"
+    version="1.0.0.0"
+    webController="TmaxPFSLogic"/>

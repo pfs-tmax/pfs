@@ -1,0 +1,9 @@
+<resource:Windows
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:Window
+            id="MainTmaxPFSWindow"
+            ideUniqueId="ID40c66ddcc67c38db9e88b1f29b5bbf4b"
+            content="MainTmaxPFSPage"
+            package="com.tmax.pfs.window"
+            title="New Window"/>
+</resource:Windows>

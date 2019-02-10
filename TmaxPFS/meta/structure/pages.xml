@@ -1,0 +1,8 @@
+<resource:PageViews
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:PageView
+            id="MainTmaxPFSPage"
+            ideUniqueId="ID7e06477c2fd93d5a8db9d2e6b846303f"
+            content="MainTmaxPFSLayout"
+            package="com.tmax.pfs.pageview"/>
+</resource:PageViews>
