@@ -1,9 +1,13 @@
 <resource:Windows
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
             <resource:Window
             id="MainTmaxPFSWindow"
             ideUniqueId="ID40c66ddcc67c38db9e88b1f29b5bbf4b"
-            content="MainTmaxPFSPage"
+            content="LoginPage"
             package="com.tmax.pfs.window"
-            title="New Window"/>
+            title="New Window">
+                <resource:Event
+                xsi:type="resource:WindowEvent"/>
+            </resource:Window>
 </resource:Windows>

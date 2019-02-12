@@ -5,4 +5,9 @@
             ideUniqueId="ID7e06477c2fd93d5a8db9d2e6b846303f"
             content="MainTmaxPFSLayout"
             package="com.tmax.pfs.pageview"/>
+            <resource:PageView
+            id="LoginPage"
+            ideUniqueId="ID3850dbde4bcc36cc8e13ec1cfb142092"
+            content="LoginLayout"
+            package="com.tmax.pfs.pageview"/>
 </resource:PageViews>
