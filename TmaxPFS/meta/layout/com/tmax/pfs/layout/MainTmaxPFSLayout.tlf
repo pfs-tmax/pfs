@@ -462,7 +462,7 @@
                                         layoutHorizontalAlignment="LEFT"
                                         layoutWidth="222"
                                         verticalAlignment="CENTER"
-                                        text="--"
+                                        text="-"
                                         textColor=""
                                         textSize="12">
                                             <resource:Event
@@ -1542,7 +1542,7 @@
                     </resource:LinearLayout>
                     <resource:TabLayout
                     id="TabLayout189"
-                    className="tab_03"
+                    className="tab_04"
                     layoutHeight="297"
                     layoutHorizontalAlignment="LEFT"
                     layoutWidth="match_parent"
