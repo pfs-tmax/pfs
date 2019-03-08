@@ -19,9 +19,9 @@
             </resource:Button>
             <resource:Button
             id="Button46"
-            layoutHeight="wrap_content"
+            layoutHeight="207"
             layoutHorizontalAlignment="LEFT"
-            layoutWidth="wrap_content"
+            layoutWidth="358"
             text="New Button">
             </resource:Button>
         </resource:LinearLayout>

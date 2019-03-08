@@ -1,5 +1,0 @@
-<resource:DataModel
-    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
-    id="datamodel"
-    ideUniqueId="IDf77be16866cf3be4b3c6cf0932994b4c"
-    package="com.tmax.pfs.datamodel"/>
