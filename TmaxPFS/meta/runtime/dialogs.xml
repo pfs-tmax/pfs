@@ -1,2 +1,16 @@
 <resource:Dialogs
-    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"/>
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:Dialog
+            id="dialogHelp"
+            ideUniqueId="IDb80e5a53c5343bde89a11303db1a3bf6"
+            layoutHeight="300"
+            layoutWidth="300"
+            closedOnclickOutside="true"
+            dialogLayout="help"
+            package="com.tmax.pfs.dialog"
+            title="1">
+                <resource:Event
+                xsi:type="resource:DialogEvent"/>
+            </resource:Dialog>
+</resource:Dialogs>

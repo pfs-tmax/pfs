@@ -1,8 +1,5 @@
-
 Top.Controller.create('MainTmaxPFSLayoutLogic', {
 	alert : function(event, widget) {
-
-		
 	},
 	pre_select : function(event, widget) {
 		ps=Top.Dom.selectById(widget.id);

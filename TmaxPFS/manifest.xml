@@ -5,6 +5,8 @@
     basePackage="com.tmax.pfs"
     liveReload="true"
     name="TmasPFSapp"
+    openBrowserAfterBuilding="true"
+    port="5279"
     root="MainTmaxPFSWindow"
     useDefaultFont="true"
     version="1.0.0.0"

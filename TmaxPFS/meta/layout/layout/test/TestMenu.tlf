@@ -1,0 +1,21 @@
+<resource:LinearLayout
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="TestMenu"
+    ideUniqueId="ID5136dbfb3de43caca628a0084f1edf5d"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    orientation="vertical">
+        <resource:LinearLayout
+        id="LinearLayout17"
+        layoutHeight="30"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="match_parent">
+            <resource:Button
+            id="Button28"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="wrap_content"
+            text="New Button">
+            </resource:Button>
+        </resource:LinearLayout>
+</resource:LinearLayout>

@@ -4,9 +4,9 @@
             <resource:Window
             id="MainTmaxPFSWindow"
             ideUniqueId="ID40c66ddcc67c38db9e88b1f29b5bbf4b"
-            content="LoginPage"
+            content="MainTmaxPFSPage"
             package="com.tmax.pfs.window"
-            title="New Window">
+            title="TmaxPFS">
                 <resource:Event
                 xsi:type="resource:WindowEvent"/>
             </resource:Window>

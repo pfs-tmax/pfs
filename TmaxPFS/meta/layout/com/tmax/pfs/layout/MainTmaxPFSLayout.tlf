@@ -172,6 +172,17 @@
         layoutHeight="30"
         layoutHorizontalAlignment="LEFT"
         layoutWidth="match_parent">
+            <resource:MenuHolder
+            id="MenuHolder31"
+            disable="false"
+            layoutHeight="30"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="500"
+            margin=""
+            visible="visible"
+            menuId="MenuGnb"
+            type="HORIZONTAL">
+            </resource:MenuHolder>
         </resource:LinearLayout>
         <resource:LinearLayout
         id="Layout_gnb_bottom"

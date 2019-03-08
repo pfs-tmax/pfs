@@ -1,0 +1,18 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DmGnb"
+    ideUniqueId="ID1c0e3b4435ff351aa28644f77d9ea98e"
+    package="dm.menu">
+        <resource:dataField
+        fieldType="String"
+        initValue=" "
+        name="gnb1"/>
+        <resource:dataField
+        fieldType="String"
+        initValue=" "
+        name="gnb2"/>
+        <resource:dataField
+        fieldType="String"
+        initValue=" "
+        name="gnb3"/>
+</resource:DataModel>

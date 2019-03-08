@@ -1,0 +1,23 @@
+<resource:DataRepository
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DrGnb"
+    ideUniqueId="IDf9c861499deb39bc876c22fa18c6f8e4"
+    package="dr.menu">
+        <resource:ListData
+        id="DiGnb"
+        ideUniqueId="IDb3c139c03b323e0fa3fe93b1c8156593"
+        modelId="DmGnb">
+            <resource:ListItem
+            modelId="DmGnb">
+                <resource:Value
+                fieldName="gnb1"
+                simpleValue=" "/>
+                <resource:Value
+                fieldName="gnb2"
+                simpleValue=" "/>
+                <resource:Value
+                fieldName="gnb3"
+                simpleValue=" "/>
+            </resource:ListItem>
+        </resource:ListData>
+</resource:DataRepository>
