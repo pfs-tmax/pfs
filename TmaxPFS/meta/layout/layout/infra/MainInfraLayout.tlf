@@ -59,7 +59,7 @@
             text="BtnShowTaxOfficeCode">
                 <resource:Event
                 xsi:type="resource:WidgetEvent"
-                onClick="#ShowTaxOfficeCode"/>
+                onClick="#showTaxOfficeCode"/>
             </resource:Button>
             <resource:Button
             id="BtnShowLocalTaxCourtCode"

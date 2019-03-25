@@ -23,6 +23,7 @@
             package="com.tmax.pfs.dialog"
             title="세무서코드도움">
                 <resource:Event
-                xsi:type="resource:DialogEvent"/>
+                xsi:type="resource:DialogEvent"
+                onOpen="#showTaxOfficeCode"/>
             </resource:Dialog>
 </resource:Dialogs>

@@ -10,7 +10,7 @@
     webControllerJs="src/logic/infra/show.js"
     orientation="vertical">
         <resource:TableView
-        id="Table_ShowTaxOfficeCode"
+        id="TableShowTaxOfficeCode"
         horizontalAlignment="CENTER"
         layoutHeight="400"
         layoutHorizontalAlignment="LEFT"
@@ -50,17 +50,17 @@
             layoutWidth="match_parent">
                 <resource:ColumnItem
                 id="Table_ShowTaxOfficeCode_ColumnItem1"
-                text="{dmShowTaxOfficeCode_field0}">
+                text="{CODE}">
                 </resource:ColumnItem>
                 <resource:ColumnItem
                 id="Table_ShowTaxOfficeCode_ColumnItem2"
                 layoutWidth="match_parent"
-                text="{dmShowTaxOfficeCode_field1}">
+                text="{TAX_OFFICE_NAME}">
                 </resource:ColumnItem>
                 <resource:ColumnItem
                 id="Table_ShowTaxOfficeCode_ColumnItem3"
                 layoutWidth="match_parent"
-                text="{dmShowTaxOfficeCode_field2}">
+                text="{AFFILIATION_OFFICE}">
                 </resource:ColumnItem>
             </resource:RowItem>
         </resource:TableView>
@@ -113,6 +113,9 @@
                 layoutHorizontalAlignment="LEFT"
                 layoutWidth="150"
                 text="">
+                    <resource:Event
+                    xsi:type="resource:WidgetEvent"
+                    onClick=""/>
                 </resource:TextField>
                 <resource:TextField
                 id="TextField227"
@@ -153,6 +156,9 @@
             layoutVerticalAlignment="CENTER"
             layoutWidth="wrap_content"
             text="확인(Enter)">
+                <resource:Event
+                xsi:type="resource:WidgetEvent"
+                onClick="#close"/>
             </resource:Button>
             <resource:Button
             id="Button398"
