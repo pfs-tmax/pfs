@@ -172,6 +172,17 @@
         layoutHeight="30"
         layoutHorizontalAlignment="LEFT"
         layoutWidth="match_parent">
+            <resource:MenuHolder
+            id="MenuHolder31"
+            disable="false"
+            layoutHeight="30"
+            layoutHorizontalAlignment="LEFT"
+            layoutVerticalAlignment="TOP"
+            layoutWidth="match_parent"
+            visible="visible"
+            menuId="MenuGnb"
+            type="HORIZONTAL">
+            </resource:MenuHolder>
         </resource:LinearLayout>
         <resource:LinearLayout
         id="Total"
@@ -240,17 +251,6 @@
                         borderColor="0,0,#0075C8,0"
                         borderWidth="0,0,2,0"
                         orientation="horizontal">
-                            <resource:MenuHolder
-                            id="MenuHolder31"
-                            disable="false"
-                            layoutHeight="30"
-                            layoutHorizontalAlignment="LEFT"
-                            layoutVerticalAlignment="TOP"
-                            layoutWidth="match_parent"
-                            visible="visible"
-                            menuId="MenuGnb"
-                            type="HORIZONTAL">
-                            </resource:MenuHolder>
                         </resource:LinearLayout>
                         <resource:LinearLayout
                         id="FinancialAccounting"

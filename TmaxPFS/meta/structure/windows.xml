@@ -4,7 +4,7 @@
             <resource:Window
             id="MainTmaxPFSWindow"
             ideUniqueId="ID40c66ddcc67c38db9e88b1f29b5bbf4b"
-            content="MainTmaxPFSPage"
+            content="LoginPage"
             package="com.tmax.pfs.window"
             title="TmaxPFS">
                 <resource:Event

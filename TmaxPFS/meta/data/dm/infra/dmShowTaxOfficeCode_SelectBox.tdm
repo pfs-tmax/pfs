@@ -1,0 +1,10 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="dmShowTaxOfficeCode_SelectBox"
+    ideUniqueId="ID0c037d843f13370d82c16f0f413041a8"
+    package="dm.infra">
+        <resource:dataField
+        fieldType="String"
+        initValue="세무서명"
+        name="dmShowTaxOfficeCode_SelectBox_field0"/>
+</resource:DataModel>

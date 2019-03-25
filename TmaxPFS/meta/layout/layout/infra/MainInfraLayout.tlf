@@ -1,27 +1,89 @@
 <resource:LinearLayout
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
     id="MainInfraLayout"
     ideUniqueId="IDef48ca4df15b37dba6cef1053aecf2bc"
     layoutHeight="match_parent"
     layoutWidth="match_parent"
+    webController="MainInfraLayoutLogic"
     orientation="vertical">
         <resource:LinearLayout
         id="LinearLayout567"
-        layoutHeight="30"
+        layoutHeight="wrap_content"
         layoutHorizontalAlignment="LEFT"
-        layoutWidth="match_parent">
+        layoutWidth="match_parent"
+        margin="50,0,0,0"
+        orientation="horizontal">
+            <resource:Icon
+            id="Icon59"
+            backgroundImage=""
+            className="icon-arrow_left"
+            disable="false"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment=""
+            layoutWidth="wrap_content"
+            tooltip="icon-arrow_left">
+            </resource:Icon>
+            <resource:Icon
+            id="Icon59_1"
+            backgroundImage=""
+            className="icon-arrow_right"
+            disable="false"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment=""
+            layoutWidth="wrap_content"
+            tooltip="icon-arrow_right">
+            </resource:Icon>
         </resource:LinearLayout>
         <resource:LinearLayout
         id="LinearLayout580"
-        layoutHeight="125"
+        className="BtnShowLayout"
+        layoutHeight="match_parent"
         layoutHorizontalAlignment="LEFT"
-        layoutWidth="match_parent">
+        layoutWidth="match_parent"
+        margin="50,50,50,50">
             <resource:Button
             id="BtnShowIndustryTypeCode"
+            className="BtnShow"
             layoutHeight="wrap_content"
             layoutHorizontalAlignment="LEFT"
             layoutWidth="wrap_content"
             text="BtnShowIndustryTypeCode">
+            </resource:Button>
+            <resource:Button
+            id="BtnShowTaxOfficeCode"
+            className="BtnShow"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="wrap_content"
+            text="BtnShowTaxOfficeCode">
+                <resource:Event
+                xsi:type="resource:WidgetEvent"
+                onClick="#ShowTaxOfficeCode"/>
+            </resource:Button>
+            <resource:Button
+            id="BtnShowLocalTaxCourtCode"
+            className="BtnShow"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="wrap_content"
+            text="BtnShowLocalTaxCourtCode">
+            </resource:Button>
+            <resource:Button
+            id="ShowRefundBankCode"
+            className="BtnShow"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="wrap_content"
+            text="ShowRefundBankCode">
+            </resource:Button>
+            <resource:Button
+            id="BtnShowLocalIncTaxCode"
+            className="BtnShow"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="wrap_content"
+            text="BtnShowLocalIncTaxCode">
             </resource:Button>
         </resource:LinearLayout>
         <resource:LinearLayout

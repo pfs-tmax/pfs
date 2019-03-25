@@ -1,0 +1,15 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="dmShowTaxOfficeCode"
+    ideUniqueId="ID379ae2e5a25c36519d8d360ffa9d58c1"
+    package="dm.infra">
+        <resource:dataField
+        fieldType="String"
+        name="dmShowTaxOfficeCode_field0"/>
+        <resource:dataField
+        fieldType="String"
+        name="dmShowTaxOfficeCode_field1"/>
+        <resource:dataField
+        fieldType="String"
+        name="dmShowTaxOfficeCode_field2"/>
+</resource:DataModel>

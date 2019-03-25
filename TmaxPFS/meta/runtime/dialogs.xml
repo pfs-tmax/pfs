@@ -14,10 +14,10 @@
                 xsi:type="resource:DialogEvent"/>
             </resource:Dialog>
             <resource:Dialog
-            id="Dialog_ShowTaxOfficeCode"
+            id="DialogShowTaxOfficeCode"
             ideUniqueId="ID3583b600f18e3e389f3fb830c947a765"
             layoutHeight="600"
-            layoutWidth="600"
+            layoutWidth="400"
             closedOnclickOutside="true"
             dialogLayout="ShowTaxOfficeCode"
             package="com.tmax.pfs.dialog"

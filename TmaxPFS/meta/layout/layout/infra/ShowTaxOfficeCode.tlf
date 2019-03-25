@@ -1,16 +1,68 @@
 <resource:LinearLayout
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
     id="ShowTaxOfficeCode"
     ideUniqueId="IDda21ff71bb5331cc80fe78fe309e5e93"
     layoutHeight="match_parent"
     layoutWidth="match_parent"
     internalPageView="Dialog_ShowTaxOfficeCode"
+    webController="ShowTaxOfficeCodeLogic"
+    webControllerJs="src/logic/infra/show.js"
     orientation="vertical">
         <resource:TableView
         id="Table_ShowTaxOfficeCode"
-        layoutHeight="300"
+        horizontalAlignment="CENTER"
+        layoutHeight="400"
         layoutHorizontalAlignment="LEFT"
-        layoutWidth="match_parent">
+        layoutWidth="350"
+        itemData="{drShowTaxOfficeCode@diShowTaxOfficeCode}">
+            <resource:TableHeader
+            id="Table_ShowTaxOfficeCode_TableHeader1"
+            layoutWidth="match_parent">
+                <resource:HeaderRow
+                id="Table_ShowTaxOfficeCode_HeaderRow6"
+                layoutWidth="match_parent">
+                    <resource:HeaderColumn
+                    id="Table_ShowTaxOfficeCode_HeaderColumn0"
+                    layoutWidth="50"
+                    headerControl="js::index"
+                    type="CHECK">
+                    </resource:HeaderColumn>
+                    <resource:HeaderColumn
+                    id="Table_ShowTaxOfficeCode_HeaderColumn1"
+                    layoutWidth="100"
+                    text="코드">
+                    </resource:HeaderColumn>
+                    <resource:HeaderColumn
+                    id="Table_ShowTaxOfficeCode_HeaderColumn2"
+                    layoutWidth="100"
+                    text="세무서명">
+                    </resource:HeaderColumn>
+                    <resource:HeaderColumn
+                    id="Table_ShowTaxOfficeCode_HeaderColumn3"
+                    layoutWidth="100"
+                    text="소속청">
+                    </resource:HeaderColumn>
+                </resource:HeaderRow>
+            </resource:TableHeader>
+            <resource:RowItem
+            id="Table_ShowTaxOfficeCode_RowItem2"
+            layoutWidth="match_parent">
+                <resource:ColumnItem
+                id="Table_ShowTaxOfficeCode_ColumnItem1"
+                text="{dmShowTaxOfficeCode_field0}">
+                </resource:ColumnItem>
+                <resource:ColumnItem
+                id="Table_ShowTaxOfficeCode_ColumnItem2"
+                layoutWidth="match_parent"
+                text="{dmShowTaxOfficeCode_field1}">
+                </resource:ColumnItem>
+                <resource:ColumnItem
+                id="Table_ShowTaxOfficeCode_ColumnItem3"
+                layoutWidth="match_parent"
+                text="{dmShowTaxOfficeCode_field2}">
+                </resource:ColumnItem>
+            </resource:RowItem>
         </resource:TableView>
         <resource:LinearLayout
         id="LinearLayout75"
@@ -20,59 +72,69 @@
         orientation="horizontal">
             <resource:LinearLayout
             id="LinearLayout145"
-            layoutHeight="30"
+            layoutHeight="50"
             layoutHorizontalAlignment=""
-            layoutVerticalAlignment=""
-            layoutWidth="150"
-            orientation="horizontal">
+            layoutVerticalAlignment="CENTER"
+            layoutWidth="100"
+            orientation="vertical">
+                <resource:SelectBox
+                id="SelectBox116"
+                layoutHeight="25"
+                layoutHorizontalAlignment="RIGHT"
+                layoutVerticalAlignment=""
+                layoutWidth="100"
+                itemData="{drShowTaxOfficeCode@diShowTaxOfficeCode_SelectBox}"
+                multiSelect="false"
+                selectedIndex="0">
+                    <resource:SelectBoxItem
+                    id="SelectBox116_SelectBoxItem0"
+                    text="{dmShowTaxOfficeCode_SelectBox_field0}">
+                    </resource:SelectBoxItem>
+                </resource:SelectBox>
                 <resource:TextView
                 id="TextView558"
                 className=""
-                layoutHeight="wrap_content"
-                layoutHorizontalAlignment=""
+                layoutHeight="25"
+                layoutHorizontalAlignment="RIGHT"
                 layoutVerticalAlignment="CENTER"
                 layoutWidth="wrap_content"
                 text="빠른이동">
                 </resource:TextView>
-                <resource:SelectBox
-                id="SelectBox116"
-                layoutHeight="30"
-                layoutHorizontalAlignment=""
-                layoutWidth="match_parent">
-                </resource:SelectBox>
             </resource:LinearLayout>
             <resource:LinearLayout
             id="LinearLayout131"
-            layoutHeight="wrap_content"
+            layoutHeight="50"
             layoutHorizontalAlignment=""
             layoutVerticalAlignment=""
-            layoutWidth="match_parent">
+            layoutWidth="200">
                 <resource:TextField
                 id="TextField172"
-                layoutHeight="wrap_content"
+                layoutHeight="25"
                 layoutHorizontalAlignment="LEFT"
-                layoutWidth="match_parent"
-                text="New TextField">
+                layoutWidth="150"
+                text="">
                 </resource:TextField>
                 <resource:TextField
                 id="TextField227"
-                layoutHeight="wrap_content"
+                layoutHeight="25"
                 layoutHorizontalAlignment="LEFT"
-                layoutWidth="match_parent"
-                text="New TextField">
+                layoutWidth="150"
+                text="">
                 </resource:TextField>
             </resource:LinearLayout>
         </resource:LinearLayout>
         <resource:LinearLayout
         id="LinearLayout303"
         layoutHeight="30"
-        layoutHorizontalAlignment="LEFT"
-        layoutWidth="match_parent">
+        layoutHorizontalAlignment="CENTER"
+        layoutWidth="match_parent"
+        orientation="horizontal">
             <resource:TextView
             id="TextView518"
             className=""
             layoutHeight="wrap_content"
             layoutHorizontalAlignment="CENTER"
+            layoutVerticalAlignment="CENTER"
             layoutWidth="wrap_content"
             text="세무서명(으)로 검색합니다.">
             </resource:TextView>
@@ -88,6 +150,7 @@
             className=""
             layoutHeight="wrap_content"
             layoutHorizontalAlignment=""
+            layoutVerticalAlignment="CENTER"
             layoutWidth="wrap_content"
             text="확인(Enter)">
             </resource:Button>
@@ -96,8 +159,12 @@
             className=""
             layoutHeight="wrap_content"
             layoutHorizontalAlignment=""
+            layoutVerticalAlignment="CENTER"
             layoutWidth="wrap_content"
             text="취소(ESC)">
+                <resource:Event
+                xsi:type="resource:WidgetEvent"
+                onClick="#close"/>
             </resource:Button>
         </resource:LinearLayout>
 </resource:LinearLayout>

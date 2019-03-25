@@ -1,0 +1,8 @@
+.BtnShowLayout{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.BtnShow{
+	margin:auto;
+}
