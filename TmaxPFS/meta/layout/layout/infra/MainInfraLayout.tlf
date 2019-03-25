@@ -1,0 +1,33 @@
+<resource:LinearLayout
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="MainInfraLayout"
+    ideUniqueId="IDef48ca4df15b37dba6cef1053aecf2bc"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    orientation="vertical">
+        <resource:LinearLayout
+        id="LinearLayout567"
+        layoutHeight="30"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="match_parent">
+        </resource:LinearLayout>
+        <resource:LinearLayout
+        id="LinearLayout580"
+        layoutHeight="125"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="match_parent">
+            <resource:Button
+            id="BtnShowIndustryTypeCode"
+            layoutHeight="wrap_content"
+            layoutHorizontalAlignment="LEFT"
+            layoutWidth="wrap_content"
+            text="BtnShowIndustryTypeCode">
+            </resource:Button>
+        </resource:LinearLayout>
+        <resource:LinearLayout
+        id="LinearLayout588"
+        layoutHeight="30"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="match_parent">
+        </resource:LinearLayout>
+</resource:LinearLayout>

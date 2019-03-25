@@ -403,7 +403,7 @@
                                         textSize="12">
                                             <resource:Event
                                             xsi:type="resource:WidgetEvent"
-                                            onClick="#navigation"
+                                            onClick="#infra"
                                             onMouseEnter="#pre_select"
                                             onMouseExit="#pre_select_clear"/>
                                         </resource:TextView>
