@@ -1,14 +1,14 @@
 POURL='http://192.168.156.164:18088/common/common_sg/';
 
-Top.Controller.create('MainInfraLayoutLogic', {
-	showTaxOfficeCode : function(event, widget) {
+Top.Controller.create('TmaxPFSLogic', {
+	openDialogShowTaxOfficeCode : function(event, widget) {
 		Top.Dom.selectById("DialogShowTaxOfficeCode").open();
 	}
 	
 });
 
-Top.Controller.create('ShowTaxOfficeCodeLogic', {
-	close : function(event, widget) {
+Top.Controller.create('TmaxPFSLogic', {
+	closeDialogShowTaxOfficeCode : function(event, widget) {
 		Top.Dom.selectById("DialogShowTaxOfficeCode").close()
 	}, 
 	

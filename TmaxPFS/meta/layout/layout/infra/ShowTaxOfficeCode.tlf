@@ -158,7 +158,7 @@
             text="확인(Enter)">
                 <resource:Event
                 xsi:type="resource:WidgetEvent"
-                onClick="#close"/>
+                onClick="#closeDialogShowTaxOfficeCode"/>
             </resource:Button>
             <resource:Button
             id="Button398"
@@ -170,7 +170,7 @@
             text="취소(ESC)">
                 <resource:Event
                 xsi:type="resource:WidgetEvent"
-                onClick="#close"/>
+                onClick="#closeDialogShowTaxOfficeCode"/>
             </resource:Button>
         </resource:LinearLayout>
 </resource:LinearLayout>

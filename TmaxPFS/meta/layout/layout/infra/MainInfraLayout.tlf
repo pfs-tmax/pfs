@@ -6,6 +6,7 @@
     layoutHeight="match_parent"
     layoutWidth="match_parent"
     webController="MainInfraLayoutLogic"
+    webControllerJs="src/logic/infra/ShowTaxOfficeCode.js"
     orientation="vertical">
         <resource:LinearLayout
         id="LinearLayout567"
@@ -59,7 +60,7 @@
             text="BtnShowTaxOfficeCode">
                 <resource:Event
                 xsi:type="resource:WidgetEvent"
-                onClick="#showTaxOfficeCode"/>
+                onClick="#openDialogShowTaxOfficeCode"/>
             </resource:Button>
             <resource:Button
             id="BtnShowLocalTaxCourtCode"
